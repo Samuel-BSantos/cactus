@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{
+    background-color: #27292a;
+    color: white;
+}
+
+input{
+    background-color: #313435;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    width: 15vw;
+    height: 40px;
+    margin: 10px 20px 10px 40px;
+} 
+
+input[type=submit]{
+    background-color: #e75e8d;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    width: 10vw;
+    height: 40px;
+    margin: 10px 20px 10px 85px;
+}
+
+.loginbox{
+    border: solid;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(139, 139, 139);
+    height: 24vh;
+    width: 20vw;
+    align-content: center;
+    margin-top: 38vh;
+}
+
+
+.mamaeui{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

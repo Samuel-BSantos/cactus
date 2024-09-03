@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+*{
+    margin: none;
+    padding: none;
+}
+
+li:hover{
+    background-color: salmon;
+}
+
+li{
+    margin-bottom:7px;
+    padding: 0px;
+    background-color: aqua;
+    border-radius: 0px 6px 6px 0px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.biblioteca_mae{
+    display: flex;
+}
+
+#text{
+    background-color: blanchedalmond;
+    width: 13vw;
+    border-radius: 0px 6px 6px 0px;
+    text-align: center;
+}
+
+#text:hover{
+    background-color: blueviolet;
+}
+
+body{
+    background-color: #313435;
+}
+
+.biblioteca_conteudo{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-left: 8px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.foto1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
